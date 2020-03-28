@@ -14,8 +14,7 @@ The data I collected has two parts:-
 
 I have created some new variables by checking on their rankings and then removed some of the intermediate team matches like pune warriors etc and manipulated the rest of the variables for the best accuracy.I have attached the screenshots of the accuracy for the reference.I observed that deep neural network gave me the best accuracy.I have used tanh estimator(retains distribution well and takes care of outliers) to scale my variables for the other algorithms which finally gave me lower accuracy.I have removed the players name and in place of that created a rank variable for each player thereby creating 22 new variables.
 
-![Final accuracy](https://github.com/themendu/IPL-Predictor/blob/master/Final%20Accuracy.png)
-![train versus validation loss curves](https://github.com/themendu/IPL-Predictor/blob/master/train%20vs%20val%20curves.png)
+![Final accuracy](https://github.com/themendu/IPL-Predictor/blob/master/screenshot2.png)
 
 
 Observations:-
@@ -27,6 +26,10 @@ Observations:-
 3.The underfit is due to less amount of USEFUL data that is available(which would be the final result as I can't fetch more useful features for my data) .Even removing dropout,increasing layers did not help.I finally acheived an accuracy of around 58%(which is permissible).
 
 4.By performing the grid serch on other algorithms gave me lower accuracy than DNN.
+
+
+![train versus validation loss curves](https://github.com/themendu/IPL-Predictor/blob/master/screenshot1.png)
+
 
 
 Files descriptions in the repository:-
