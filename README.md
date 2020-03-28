@@ -8,6 +8,7 @@ Hope you all have seen pre-match predictor of Google.It displays win percentage 
 Data collected and my methodlogy:-
 
 The data I collected has two parts:-
+
 1.Match data including the two teams,venue,date.(easily available online).
 
 2.Player ICC T20 rankings of both teams playing as on match time.(http://www.relianceiccrankings.com/twenty20.php)
