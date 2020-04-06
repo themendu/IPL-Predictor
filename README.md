@@ -5,7 +5,7 @@ Greetings!
 Hope you all have seen pre-match predictor of Google.It displays win percentage for both the teams.Though I am not here to compete with it,I am trying to build my own version of it.
 
 
-**Data collected and my methodlogy:-
+# Data collected and my methodlogy:-
 
 The data I collected has two parts:-
 
@@ -18,7 +18,7 @@ I have created some new variables by checking on their rankings and then removed
 ![Final accuracy](https://github.com/themendu/IPL-Predictor/blob/master/Screenshot%20(26).png)
 
 
-**Observations:-
+# Observations:-
 
 1.My model is of no use if the accuracy metric(considering binary classes and no win percentage) is less than 0.5(human bias level).
 
@@ -37,7 +37,7 @@ I have created some new variables by checking on their rankings and then removed
 
 
 
-**Files descriptions in the repository:-
+# Files descriptions in the repository:-
 
 1.2009.csv contains top 100 T20 players list(both batting and bowling) at match time.
 
