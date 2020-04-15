@@ -28,7 +28,7 @@ I have created some new variables by checking on their rankings and then removed
 
 4.I could manage a model that can equally learn and test the data(ideal model for our data assuming our data is represent enough to predict).The underfit is due to less amount of USEFUL data that is available(which would be the final result as I can't fetch more useful features for my data).I finally acheived an accuracy of around 56%(which is permissible).But it is evident that I did not overfit from seeing the loss functions.
 
-5.Note that if our model validation loss decreases and then increase while our training loss keeps decreasing that is a sign of overfit.A perfect fit is where our losses are comparable and we get our training loss slightly lower(obvious reasons) than validation loss.
+5.Note that if our model validation loss decreases and then increase while our training loss keeps decreasing that is a sign of overfit.A perfect fit is where our losses are comparable and we get our training loss slightly lower(obvious reasons) than validation loss.Here in my case may be the model is leaening the statistical noise of the data instead of generalization of it.
 
 6.By performing the grid serch on other algorithms gave me lower accuracy than DNN.
 
