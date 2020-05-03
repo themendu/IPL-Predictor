@@ -1,8 +1,8 @@
 # IPL-Predictor(Walkthrough into Deep Neural Network and tuning) 
 Win Percentage Predictor for past IPL mathces(2007-2017)
 
-Greetings!
-Hope you all have seen pre-match predictor of Google.It displays win percentage for both the teams.Though I am not here to compete with it,I am trying to build my own version of it.
+
+I have have seen pre-match predictor of Google.It displays win percentage for both the teams.Though I am not here to compete with it,I am trying to build my own version of it.
 
 
 # Data collected and my methodlogy:-
